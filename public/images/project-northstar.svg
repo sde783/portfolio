@@ -1,0 +1,14 @@
+<svg width="640" height="400" viewBox="0 0 640 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="400" rx="32" fill="#050F24"/>
+  <rect x="48" y="48" width="544" height="304" rx="28" fill="#081936"/>
+  <rect x="80" y="92" width="150" height="36" rx="12" fill="#11254B"/>
+  <rect x="250" y="92" width="310" height="36" rx="12" fill="#11254B"/>
+  <rect x="80" y="148" width="480" height="180" rx="20" fill="#0C1F42"/>
+  <path d="M130 292L190 212L250 264L310 200L370 260L430 180L490 236L550 172" stroke="#7FC5FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="190" cy="212" r="10" fill="#FFB4F0"/>
+  <circle cx="310" cy="200" r="10" fill="#7FFFD4"/>
+  <circle cx="430" cy="180" r="10" fill="#FFE066"/>
+  <circle cx="550" cy="172" r="10" fill="#9DD6FF"/>
+  <path d="M170 198C170 192.477 174.477 188 180 188H250C255.523 188 260 192.477 260 198V256C260 261.523 255.523 266 250 266H180C174.477 266 170 261.523 170 256V198Z" stroke="#2C3C63" stroke-width="2"/>
+  <path d="M320 188C320 182.477 324.477 178 330 178H510C515.523 178 520 182.477 520 188V248C520 253.523 515.523 258 510 258H330C324.477 258 320 253.523 320 248V188Z" stroke="#2C3C63" stroke-width="2"/>
+</svg>

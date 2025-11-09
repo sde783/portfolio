@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import forms from '@tailwindcss/forms'
 
 const config: Config = {
   content: [
@@ -8,13 +9,35 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        brand: {
+          50: '#edf5ff',
+          100: '#d1e3ff',
+          200: '#a3c6ff',
+          300: '#75a8ff',
+          400: '#478bff',
+          500: '#1b6eff',
+          600: '#0f54d6',
+          700: '#093ca3',
+          800: '#052670',
+          900: '#02113d',
+        },
+      },
+      fontFamily: {
+        sans: ['var(--font-sans)', 'Inter', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        'glow-lg':
+          '0 20px 45px rgba(4, 13, 33, 0.85), inset 0 0 25px rgba(71, 139, 255, 0.25)',
+        'panel':
+          '0 15px 30px rgba(2, 6, 23, 0.65), inset 0 0 0 1px rgba(148, 163, 184, 0.08)',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-glow':
+          'radial-gradient(circle at top, rgba(71, 139, 255, 0.45), transparent 60%)',
       },
     },
   },
-  plugins: [],
+  plugins: [forms],
 }
 export default config
