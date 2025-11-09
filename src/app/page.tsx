@@ -134,17 +134,17 @@ export default function Home() {
         >
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-brand-300">
-              Product engineer · Atlanta ↗
+              Director of Engineering · Visa, Bangalore ↗
             </p>
             <h1 className="mt-6 text-4xl font-semibold leading-tight text-white sm:text-5xl">
-              Hello, I&apos;m Shreya. I craft human stories into thoughtful
-              software.
+              Hello, I&apos;m Shreya, an Engineering Leader driving bold
+              product strategies through human-centered, scalable technologies.
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-slate-300">
-              I merge product strategy with systems thinking to launch accessible
-              AI experiences. My happy place is where qualitative research meets
-              reliable engineering—turning ambiguous problem spaces into
-              lovable tools that scale.
+              I lead product-minded engineering teams, blending systems thinking
+              and storytelling to align AI investments with measurable outcomes.
+              My teams thrive where rigorous delivery, inclusive research, and
+              resilient infrastructure intersect.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
@@ -154,7 +154,7 @@ export default function Home() {
                 Explore my work
               </a>
               <a
-                href="https://www.linkedin.com/in/shreyade/"
+                href="https://www.linkedin.com/in/shreya-de22/"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10"
