@@ -17,65 +17,55 @@ const stats = [
 
 const projects = [
   {
-    title: 'Pulseboard',
+    title: 'Visa Account Attack Intelligence(VAAI)',
     description:
-      'Operational intelligence hub for customer-success teams that tracks sentiment, churn-risk, and adoption trends in near real-time.',
+      'VAAI is a real-time fraud detection system that leverages machine learning to process over 20 billion account events monthly,achieving a 40% reduction in false positives and a 3x improvement in attack detection across global issuers.',
     image: '/images/project-pulseboard.svg',
-    tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
-    links: {
-      github: 'https://github.com/shreyade/pulseboard',
-      demo: 'https://pulseboard.app',
-    },
+    tech: ['Java', 'Microservices', 'REST', 'MySQL','React'],
   },
   {
-    title: 'Northstar Briefs',
+    title: 'Ecommerce Threat Detection(ETD)',
     description:
-      'Automated research assistant that summarises competitive signals and crafts investor-ready briefs fed by curated AI agents.',
+      'ETD is an AI-driven system that monitors ober 10M transactions daily,detecting fraud,bot attacks and anomalies with over 95% accuracy over global merchant platforms in real time ',
     image: '/images/project-northstar.svg',
-    tech: ['React Server Components', 'Supabase', 'OpenAI'],
-    links: {
-      github: 'https://github.com/shreyade/northstar-briefs',
-      demo: 'https://northstar.run',
-    },
+    tech: ['React', 'Kafka Streams', 'GraphQL','MySQL'],
+    
   },
   {
-    title: 'Harbor Awards',
+    title: 'Oracle Cloud Infrastructure Modernization (OCI)',
     description:
-      'Playful awards microsite that celebrates engineering achievements with shareable cards, built for an annual internal summit.',
+      'OCI project modernized legacy systems by migrating 250+ adapters and connectors to Oracle cloud, enabling 99.9% uptime,accelerating partner onboarding by 40%, and reducing annual infrastructure costs by $2.5M',
     image: '/images/project-harbor.svg',
-    tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
-    links: {
-      github: 'https://github.com/shreyade/harbor-awards',
-      demo: 'https://awards.harbor.studio',
-    },
+    tech: ['Oracle Integration Cloud', 'Java', 'Oracle Data Flow'],
+    
   },
 ]
 
 const recognitions = [
   {
-    title: 'Google Women Techmakers Scholar',
-    org: 'Google',
+    title: 'Women in Technology Leadership',
+    org: 'VISA',
     year: '2024',
-    detail: 'Selected for work on equitable AI research tooling.',
+    detail: 'Recognized for pioneering AI solutions that empower women-led businesses through safer and smarter digital payment systems.',
   },
   {
-    title: 'Best Capstone',
-    org: 'Georgia Tech HCI Studio',
+    title: 'AI Innovation Excellence',
+    org: 'VISA',
     year: '2023',
-    detail: 'Led a four-person team to ship a patient advocacy app.',
+    detail: 'Led a 70+ member team to develop a GenAI powered risk intelligence platform.',
   },
   {
-    title: 'Grace Hopper Scholar',
-    org: 'AnitaB.org',
+    title: 'Distinguised Mentor',
+    org: 'Oracle',
     year: '2022',
-    detail: 'Awarded travel grant and presented on ethical design.',
+    detail: 'Honored for providing career mentorship to 50+ junior engineers, fostering a culture of growth and inclusivity within the engineering community.',
   },
 ]
 
 const proficiencies = [
-  { name: 'TypeScript', level: 92 },
-  { name: 'React & Next.js', level: 90 },
-  { name: 'Node & API Design', level: 86 },
+  { name: 'Architecture Design and Review', level: 92 },
+  { name: 'Technical Roadmap Planning', level: 90 },
+  { name: 'REST & API Design', level: 86 },
   { name: 'Data Visualization', level: 84 },
   { name: 'UX Storytelling', level: 88 },
   { name: 'Product Strategy', level: 94 },
@@ -93,6 +83,24 @@ const toolkits = [
   {
     title: 'Collaboration',
     items: ['Figma', 'Linear', 'Jira', 'Notion', 'Miro'],
+  },
+]
+
+const orgFocus = [
+  {
+    title: 'Reliability & scale',
+    detail:
+      'Hardening observability, SLO scorecards, and deployment safety rails to keep a 99.95% uptime promise.',
+  },
+  {
+    title: 'Responsible AI rollout',
+    detail:
+      'Partnering with research, policy, and GTM to codify guardrails and review loops for every generative AI feature.',
+  },
+  {
+    title: 'People systems',
+    detail:
+      'Mentoring engineering managers, hiring mission-driven tech leads, and modernizing our growth framework.',
   },
 ]
 
@@ -119,7 +127,7 @@ export default function Home() {
             ))}
           </div>
           <a
-            href="mailto:hello@shreyade.design"
+            href="mailto:shreyade783@gmail.com"
             className="rounded-full border border-white/10 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-white hover:bg-white/10"
           >
             Available for freelance
@@ -136,12 +144,12 @@ export default function Home() {
             <p className="text-sm uppercase tracking-[0.3em] text-brand-300">
               Director of Engineering · Visa, Bangalore ↗
             </p>
-            <h1 className="mt-6 text-4xl font-semibold leading-tight text-white sm:text-5xl">
-              Hello, I&apos;m Shreya, an Engineering Leader driving bold
-              product strategies through human-centered, scalable technologies.
+            <h1 className="mt-8 max-w-3xl text-5xl sm:text-6xl font-semibold leading-tight text-white font-sans tracking-tight">
+              Hello! I&apos;m Shreya De!
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-slate-300">
-              I lead product-minded engineering teams, blending systems thinking
+              I am an Engineering Leader driving next-generation
+              product strategies that blend AI innovation with scalable technologies.I lead product-minded engineering teams, blending systems thinking
               and storytelling to align AI investments with measurable outcomes.
               My teams thrive where rigorous delivery, inclusive research, and
               resilient infrastructure intersect.
@@ -152,6 +160,13 @@ export default function Home() {
                 className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-brand-200 hover:text-slate-900"
               >
                 Explore my work
+              </a>
+              <a
+                href="/documents/shreya-de-resume.pdf"
+                download
+                className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10"
+              >
+                Download CV
               </a>
               <a
                 href="https://www.linkedin.com/in/shreya-de22/"
@@ -180,32 +195,28 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative rounded-3xl border border-white/5 bg-gradient-to-br from-slate-900 to-slate-800 p-1 shadow-glow-lg">
-            <div className="relative h-full rounded-[calc(theme(borderRadius.3xl)-0.25rem)] bg-slate-950/80 p-8">
-              <div className="flex items-center justify-between text-xs uppercase tracking-wide text-slate-400">
-                <span>Weekly focus</span>
-                <span>Product × craft</span>
-              </div>
-              <div className="mt-8">
-                <Image
-                  src="/images/profile-constellation.svg"
-                  width={520}
-                  height={520}
-                  alt="Constellation illustration"
-                  className="w-full rounded-2xl border border-white/5 bg-slate-900/80 p-6"
-                  priority
-                />
-              </div>
-              <div className="mt-8 space-y-4 text-sm text-slate-300">
-                <div className="flex items-center justify-between">
-                  <p>User research loops</p>
-                  <span className="text-white">35 interviews</span>
+          <div className="rounded-3xl border border-white/5 bg-gradient-to-br from-slate-900 to-slate-800 p-8 shadow-glow-lg">
+            <p className="text-xs uppercase tracking-[0.4em] text-brand-200">
+              Org focus
+            </p>
+            <h3 className="mt-4 text-2xl text-white">
+              Scaling AI-powered platforms with resilient teams.
+            </h3>
+            <div className="mt-8 space-y-5 text-sm text-slate-300">
+              {orgFocus.map((item) => (
+                <div
+                  key={item.title}
+                  className="rounded-2xl border border-white/5 bg-white/5 p-4"
+                >
+                  <p className="text-sm font-semibold text-white">
+                    {item.title}
+                  </p>
+                  <p className="mt-2 text-slate-300">{item.detail}</p>
                 </div>
-                <div className="flex items-center justify-between">
-                  <p>AI prototypes</p>
-                  <span className="text-white">6 live tests</span>
-                </div>
-              </div>
+              ))}
+            </div>
+            <div className="mt-8 rounded-2xl border border-white/5 bg-slate-950/60 p-4 text-xs uppercase tracking-wide text-slate-400">
+              Currently coaching five squads across platform, data, and AI experience workstreams.
             </div>
           </div>
         </section>
@@ -248,21 +259,21 @@ export default function Home() {
                       <h3 className="text-2xl text-white">{project.title}</h3>
                       <div className="flex gap-3 text-xs font-semibold uppercase tracking-wide text-brand-200">
                         <a
-                          href={project.links.demo}
+                          
                           target="_blank"
                           rel="noreferrer"
                           className="transition hover:text-white"
                         >
-                          Live
+                         
                         </a>
                         <span className="text-slate-600">•</span>
                         <a
-                          href={project.links.github}
+                          
                           target="_blank"
                           rel="noreferrer"
                           className="transition hover:text-white"
                         >
-                          Code
+                          
                         </a>
                       </div>
                     </div>
@@ -383,10 +394,10 @@ export default function Home() {
                 </dt>
                 <dd>
                   <a
-                    href="mailto:hello@shreyade.design"
+                    href="mailto:shreyade783@gmail.com"
                     className="font-semibold text-white"
                   >
-                    hello@shreyade.design
+                    shreyade783@gmail.com
                   </a>
                 </dd>
               </div>
@@ -396,12 +407,12 @@ export default function Home() {
                 </dt>
                 <dd>
                   <a
-                    href="https://www.linkedin.com/in/shreyade/"
+                    href="https://www.linkedin.com/in/shreya-de22/"
                     target="_blank"
                     rel="noreferrer"
                     className="font-semibold text-white underline decoration-white/30 underline-offset-4"
                   >
-                    linkedin.com/in/shreyade
+                    linkedin.com/in/shreya-de22
                   </a>
                 </dd>
               </div>
