@@ -9,9 +9,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Shreya De | Product Engineer & Storyteller',
+  title: 'Shreya De',
   description:
-    'Portfolio website for Shreya De, a product-focused software engineer building thoughtful AI-powered experiences.',
+    'Portfolio website for Shreya De, a product-focused leader building thoughtful AI-powered experiences.',
   robots: {
     index: true,
     follow: true,
